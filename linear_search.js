@@ -18,6 +18,34 @@ const linearSearch = (arr, value) => {
   return -1;
 };
 
-const array = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
+const array = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "ñ",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+];
 
 console.log(linearSearch(array, "e"));
