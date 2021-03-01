@@ -16,18 +16,18 @@ const binarySearch = (sortedArr, value) => {
   let start = 0;
   let end = arr.length - 1;
   let middle = Math.floor((start + end) / 2);
-  while (sortedArr[middle] !== value) {
+  while (sortedArr[middle] !== value && start <= end) {
     if (value < sortedArr[middle]) {
       end = middle - 1;
     } else {
       start = middle + 1;
     }
     middle = Math.floor((start + end) / 2);
-    console.log(start, middle, end);
   }
-  return middle;
+
+  return sortedArr[middle] === value ? middle : -1;
 };
 
 const arr = [2, 5, 6, 9, 13, 15, 28, 30];
 
-console.log(binarySearch(arr, 28));
+console.log(binarySearch(arr, 13));
