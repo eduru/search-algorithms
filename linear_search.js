@@ -13,9 +13,7 @@
 const linearSearch = (arr, value) => {
   const len = arr.length;
   for (let i = 0; i < len; i++) {
-    if (arr[i] === value) {
-      return i;
-    }
+    if (arr[i] === value) return i;
   }
   return -1;
 };
