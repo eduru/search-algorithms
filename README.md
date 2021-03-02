@@ -7,4 +7,6 @@ https://eduru.medium.com/searching-algorithms-linear-search-javascript-e7b4a8841
 <br>
 
 Binary Search
+<br>
 https://eduru.medium.com/searching-algorithms-binary-search-javascript-2e7e1512de50
+<br>
